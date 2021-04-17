@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;;
+}
+
+body{
+	background-color:;
+	color: #3D3D3D;
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+.container{
+	background-color:#ECE9E1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 50px 250px;
+	padding: 50px;
+	border-radius: 5px;
+}
+
+/* Name and contacts */
+
+div h1{
+	margin-bottom: 15px;
+}
+
+div .p-intro{
+	width: 60%vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+	margin: 20px auto;
+	text-align: center;
+}
+
+div span{
+	color:royalblue;
+	text-decoration: underline;
+}
+
+/* Lists of professional qualities */
+
+div .p-quality{
+	background-color: #3D3D3D;
+	color: #ECE9E1;
+	border-radius: 3px;
+	padding: 20px 0 5px 35px;
+}
+
+div .ph4{
+	padding: 20px 0 5px 35px;	
+}
+
+div .list-qua{
+	padding: 5px 0 20px 35px;
+}
+
+/* Education container */
+
+div .education{
+	padding: 20px 0 5px 35px;
+}
+
+div .edu-h4{
+	padding: 10px 0 5px 35px;	
+}
+
+div .list-edu{
+	padding: 5px 0 20px 35px;
+}
+
+div .edu-table{
+	width: 100px;
+}
+
+/* Work experience */
+
+tr {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+div .company{
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+div .experience{
+	padding: 20px 0 5px 35px;
+}
+
+div .exp-h4{
+	padding: 10px 0 5px 35px;
+}
+
+div .list-exp {
+	padding: 5px 0 20px 35px;
+}
+
+div .exp-table{
+	width: 100px;
+}
+
+div .p-data{
+	padding: 10px 0 5px 35px;
+}
+
+div .personal-d{
+	padding: 20px 0 5px 35px;
+}
+
+div .d-table{
+	padding: 5px 0 20px 35px;
+}
+
+div .hobby{
+	padding: 20px 0 5px 35px;
+}
+
+div .hobb{
+	padding: 10px 0 5px 35px;
+}
+
+div .hobb-p{
+	padding: 5px 0 10px 35px;
+}
+
+div .ref{
+	padding: 20px 0 5px 35px;
+	display: flex;
+	flex-direction: column;
+}
+
+div .ref-h{
+	padding: 10px 0 5px 35px;
+}
+
+
+div .ref1{
+	padding: 10px 0 5px 35px;
+}
+
+
+div .ref2{
+	padding: 10px 0 5px 35px;
+}

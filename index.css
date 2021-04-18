@@ -1,11 +1,10 @@
-*{
+/* *{ */
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;;
 }
 
-body{
-	background-color:;
+/* body{ */
 	color: #3D3D3D;
 	margin: 0;
 	padding: 0;
@@ -13,6 +12,15 @@ body{
 	font-size: 13px;
 	box-sizing: border-box;
 	line-height: 1.5;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    cursor: pointer;
+Position:relative;
 }
 
 .container{
@@ -41,9 +49,8 @@ div .p-intro{
 	text-align: center;
 }
 
-div span{
-	color:royalblue;
-	text-decoration: underline;
+.email a{
+	text-decoration: none;
 }
 
 /* Lists of professional qualities */
@@ -153,4 +160,80 @@ div .ref1{
 
 div .ref2{
 	padding: 10px 0 5px 35px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px){
+	.container{
+		padding:0;
+		margin:0;
+		font-size: 12px;
+		/* display: flex; */
+		width: 100%;
+	}
+	div .p-intro{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		box-sizing: border-box;
+		margin: 10px auto;
+		text-align: center;
+		line-height: 1;
+	}
+
+	div .p-quality{
+		background-color: #3D3D3D;
+		color: #ECE9E1;
+		border-radius: 3px;
+		padding: 3px;
+	}
+
+	div .education{
+		padding: 3px;
+	}
+
+	div .edu-table{
+		width: 30px;
+	}
+
+	div .edu-school{
+		text-align: left;
+		padding-left: 10px;
+	}
+
+	div .experience{
+		padding: 3px;
+	}
+
+	div .exp-table{
+		width: 20%vw;
+		padding: 0 0 0 30px;
+		display: flex;
+		margin-top: 11px;
+	}
+
+	div .company{
+		font-size: 13px;
+		font-weight: bold;
+		margin: 10px auto;
+		width: 100%;
+		/* display: flex; */
+	}
+	div .list-exp {
+		padding: 3px;
+	}
+
+	div .p-data{
+		padding: 3px;
+	}
+
+	div .hobby{
+		padding: 3px;
+	}
+
+	div .ref{
+		padding:3px;
+	}
+
+
 }
